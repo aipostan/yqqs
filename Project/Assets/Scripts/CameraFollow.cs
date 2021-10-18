@@ -7,11 +7,6 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     public float smoothing;
 
-    void Start()
-    {
-        
-    }
-
     void LateUpdate()
     {
         if(target != null)
